@@ -44,6 +44,9 @@ def addidas(request):
 def Wsport(request):
     return render(request,'wsport.html')
 
+def Addtocart(request):
+    return render(request,'cart.html')
+
 def Userlogin(request):
     if request.method=='POST':
         vuemail=request.POST.get('uemail')

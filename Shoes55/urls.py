@@ -18,6 +18,7 @@ urlpatterns = [
             path('Spark',views.spark,name='Spark'),
             path('Addidas',views.addidas,name='Addidas'),
             path('Nike',views.nike,name='Nike'),
-            path('Redtape',views.redtape,name='Reatape'),  
+            path('Redtape',views.redtape,name='Reatape'),
+            path('cart',views.Addtocart,name='cart'),
             
     ]
